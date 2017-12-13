@@ -1,0 +1,63 @@
+from __future__ import print_function
+
+import mysql.connector
+from mysql.connector import errorcode
+
+DB_NAME = 'scoringproject'
+
+cnx = mysql.connector.connect(   )  # Work in progress
+cursor = cnx.cursor()
+
+def generateTables(int year):
+  name = 'competition' + year       # I need to double check if this works
+  commandsToRun = "CREATE TABLE " 
+    name
+    " ("
+    "  'id' INT unsigned NOT NULL AUTO_INCREMENT,"    # Used only for primary key
+    "  'teamName' varchar(150),"                      # Holds the name of team (can be null if name not given)
+    "  'teamNumber' INT unsigned NOT NULL,"           # Holds the assigned team number 
+    "  'school' varchar(150) NOT NULL,"               # Holds the name of the teams school
+    "  'numLegs' INT unsigned NOT NULL,"              # Holds either 2 or 4 depending in number of legs
+    "  'automated' enum('M', 'A', 'AFB') NOT NULL,"   # Reffers to Manual, Automated, or Automated with Feedback
+    "  'day' enum('Sat', 'Sun') NOT NULL,"            # Reffers to whether the team is going on Saturday or Sunday
+    "  'writtenScore' INT unsigned,"                  # Holds score earned from written evaluation (can be null)
+    "  'trackScore' INT unsigned,"                    # Holds score earned from track runs (can be null)
+    "  'oralScore' INT unsigned,"                     # Holds score earned from oral presentation (can be null)
+    "  'fabricationScore' INT unsigned,"              # Holds score earned from fabrication (can be null)
+    "  'runTime1' TIME,"                              # Holds time spent on first run (can be null)
+    "  'runTime2' TIME,"                              # Holds time spent on second run (can be null)
+    "  'runTime3' TIME,"                              # Holds time spent on third run (can be null)
+    "  PRIMARY KEY (`id`)"                            # Sets id as the primary key
+    ") ENGINE=InnoDB"     # I need to double check if this works
+
+  try:
+    print("Creating table {}: ".format(name), end='')
+    cursor.execute(ddl)
+  except mysql.connector.Error as err:
+    if err.errno == errorcode.ER_TABLE_EXISTS_ERROR:
+      print("already exists.")
+    else:
+      print(err.msg)
+  else:
+    print("OK")
+  
+  cursor.close()
+  cnx.close()
+
+def create_database(cursor):
+    try:
+        cursor.execute(
+            "CREATE DATABASE {} DEFAULT CHARACTER SET 'utf8'".format(DB_NAME))
+    except mysql.connector.Error as err:
+        print("Failed creating database: {}".format(err))
+        exit(1)
+
+try:
+    cnx.database = DB_NAME  
+except mysql.connector.Error as err:
+    if err.errno == errorcode.ER_BAD_DB_ERROR:
+        create_database(cursor)
+        cnx.database = DB_NAME
+    else:
+        print(err)
+        exit(1)
