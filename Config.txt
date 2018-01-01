@@ -1,0 +1,1 @@
+{"dbTable": "`maintable`", "fontSize": "12", "delay": "4", "dbPass": "IEEE", "MAXheight": "30", "dbUser": "displaySystem", "dbIP": "127.0.0.1", "dbName": "testing"}
