@@ -1,0 +1,1 @@
+{"dbPass": "IEEE", "dbUser": "displaySystem", "delay": "10", "dbIP": "127.0.0.1", "dbName": "testing", "fontSize": "12", "dbTable": "`2018-01-02 03:25:40`", "MAXheight": "30"}
