@@ -1,0 +1,300 @@
+teamName,number,School,written_score,control_type,fabrication,track_run_1,track_run_2,track_run_3,track_score,day,competition_type,oral_score,overall_score,Comments Section,hide_from_display,hide_from_final_scoresTeam 0,0,School,2,  auto  ,16,57:21,55:55,22:2,86,  Saturday  ,  2-leg overall  ,91,94,Comments Section,0,0
+Team 1,1,School,76,  auto  ,76,42:51,16:1,10:44,94,  Sunday  ,  2-leg manual   ,23,22,Comments Section,0,0
+Team 2,2,School,49,  auto fb  ,64,20:32,49:31,40:36,10,  Saturday  ,  4-leg manual   ,38,15,Comments Section,0,0
+Team 3,3,School,23,  auto fb  ,76,11:53,13:4,5:29,58,  Sunday  ,  2-leg overall  ,53,55,Comments Section,0,0
+Team 4,4,School,58,  auto fb  ,74,9:57,27:16,46:51,17,  Saturday  ,  4-leg overall  ,84,9,Comments Section,0,0
+Team 5,5,School,4,  manual  ,40,29:21,59:47,46:41,14,  Sunday  ,  2-leg manual   ,23,85,Comments Section,0,0
+Team 6,6,School,90,  auto  ,63,60:21,28:26,32:21,9,  Sunday  ,  4-leg overall  ,37,80,Comments Section,0,0
+Team 7,7,School,68,  manual  ,60,56:1,11:27,41:58,42,  Sunday  ,  4-leg overall  ,56,81,Comments Section,0,0
+Team 8,8,School,79,  auto fb  ,38,54:25,46:60,24:50,20,  Saturday  ,  2-leg overall  ,53,47,Comments Section,0,0
+Team 9,9,School,27,  manual  ,39,58:38,33:35,21:28,101,  Saturday  ,  4-leg manual   ,10,96,Comments Section,0,0
+Team 10,10,School,23,  auto fb  ,14,8:1,60:60,29:28,14,  Sunday  ,  4-leg overall  ,44,101,Comments Section,0,0
+Team 11,11,School,41,  auto fb  ,92,5:11,47:24,58:37,6,  Sunday  ,  2-leg overall  ,85,96,Comments Section,0,0
+Team 12,12,School,8,  auto  ,90,34:55,38:31,26:21,101,  Sunday  ,  2-leg manual   ,3,38,Comments Section,0,0
+Team 13,13,School,30,  manual  ,91,26:21,5:14,36:28,53,  Sunday  ,  4-leg manual   ,85,53,Comments Section,0,0
+Team 14,14,School,87,  auto fb  ,15,28:56,1:15,57:11,32,  Sunday  ,  2-leg manual   ,19,6,Comments Section,0,0
+Team 15,15,School,20,  auto fb  ,81,44:39,54:38,56:23,37,  Saturday  ,  4-leg overall  ,17,95,Comments Section,0,0
+Team 16,16,School,12,  auto  ,58,41:28,7:31,54:60,53,  Saturday  ,  4-leg overall  ,29,80,Comments Section,0,0
+Team 17,17,School,96,  auto fb  ,79,47:30,5:37,52:7,24,  Sunday  ,  2-leg overall  ,101,53,Comments Section,0,0
+Team 18,18,School,76,  auto fb  ,13,44:46,15:44,33:25,20,  Sunday  ,  2-leg manual   ,51,43,Comments Section,0,0
+Team 19,19,School,86,  manual  ,49,20:9,23:60,5:60,27,  Saturday  ,  2-leg overall  ,53,60,Comments Section,0,0
+Team 20,20,School,75,  manual  ,3,35:58,35:11,37:31,51,  Sunday  ,  2-leg manual   ,48,15,Comments Section,0,0
+Team 21,21,School,35,  manual  ,8,5:38,38:11,16:25,57,  Saturday  ,  2-leg manual   ,6,42,Comments Section,0,0
+Team 22,22,School,79,  manual  ,40,35:44,13:54,38:45,100,  Sunday  ,  2-leg overall  ,78,85,Comments Section,0,0
+Team 23,23,School,32,  auto  ,50,55:55,18:20,38:4,4,  Saturday  ,  4-leg overall  ,62,32,Comments Section,0,0
+Team 24,24,School,53,  manual  ,50,5:49,14:13,52:22,87,  Saturday  ,  4-leg manual   ,76,87,Comments Section,0,0
+Team 25,25,School,76,  auto fb  ,33,36:32,45:51,11:55,54,  Saturday  ,  2-leg overall  ,78,68,Comments Section,0,0
+Team 26,26,School,13,  manual  ,41,17:19,15:4,9:53,64,  Saturday  ,  4-leg manual   ,33,3,Comments Section,0,0
+Team 27,27,School,83,  manual  ,77,32:24,36:9,23:49,88,  Saturday  ,  2-leg manual   ,12,92,Comments Section,0,0
+Team 28,28,School,52,  auto fb  ,28,12:46,11:43,6:52,73,  Saturday  ,  4-leg overall  ,66,59,Comments Section,0,0
+Team 29,29,School,101,  auto fb  ,14,13:5,32:24,6:20,62,  Saturday  ,  2-leg overall  ,14,20,Comments Section,0,0
+Team 30,30,School,85,  auto fb  ,25,48:30,37:49,56:57,27,  Saturday  ,  2-leg overall  ,7,96,Comments Section,0,0
+Team 31,31,School,3,  auto  ,65,50:45,58:30,19:5,14,  Sunday  ,  2-leg overall  ,42,48,Comments Section,0,0
+Team 32,32,School,85,  auto fb  ,101,16:35,4:56,8:47,35,  Saturday  ,  4-leg overall  ,45,98,Comments Section,0,0
+Team 33,33,School,34,  manual  ,93,19:56,27:6,6:50,82,  Sunday  ,  4-leg overall  ,76,59,Comments Section,0,0
+Team 34,34,School,98,  manual  ,35,60:47,20:26,4:35,21,  Sunday  ,  2-leg manual   ,68,50,Comments Section,0,0
+Team 35,35,School,4,  auto  ,42,57:25,19:47,4:8,13,  Sunday  ,  4-leg overall  ,80,82,Comments Section,0,0
+Team 36,36,School,44,  manual  ,23,32:28,40:27,18:53,93,  Sunday  ,  2-leg overall  ,27,101,Comments Section,0,0
+Team 37,37,School,62,  manual  ,65,12:7,12:26,31:32,41,  Sunday  ,  2-leg overall  ,3,34,Comments Section,0,0
+Team 38,38,School,64,  auto  ,61,4:23,24:26,13:4,13,  Sunday  ,  2-leg manual   ,8,94,Comments Section,0,0
+Team 39,39,School,58,  auto  ,80,7:15,14:14,32:20,54,  Saturday  ,  4-leg manual   ,75,78,Comments Section,0,0
+Team 40,40,School,1,  auto  ,85,2:36,34:55,52:6,70,  Sunday  ,  4-leg manual   ,39,67,Comments Section,0,0
+Team 41,41,School,23,  manual  ,43,9:4,5:48,40:10,74,  Saturday  ,  2-leg overall  ,26,41,Comments Section,0,0
+Team 42,42,School,87,  auto fb  ,96,32:48,23:13,42:41,72,  Saturday  ,  2-leg overall  ,96,57,Comments Section,0,0
+Team 43,43,School,92,  manual  ,51,31:4,7:55,50:57,89,  Sunday  ,  2-leg overall  ,17,78,Comments Section,0,0
+Team 44,44,School,37,  manual  ,62,52:25,51:60,57:21,66,  Saturday  ,  2-leg manual   ,18,90,Comments Section,0,0
+Team 45,45,School,77,  manual  ,62,8:11,26:45,45:45,77,  Sunday  ,  2-leg manual   ,27,42,Comments Section,0,0
+Team 46,46,School,4,  manual  ,90,52:49,10:1,31:52,80,  Saturday  ,  2-leg manual   ,52,2,Comments Section,0,0
+Team 47,47,School,10,  auto  ,15,38:26,39:5,14:26,33,  Saturday  ,  4-leg overall  ,78,45,Comments Section,0,0
+Team 48,48,School,86,  manual  ,57,50:15,28:6,60:51,19,  Sunday  ,  4-leg overall  ,58,12,Comments Section,0,0
+Team 49,49,School,4,  auto fb  ,8,49:48,36:35,16:47,80,  Saturday  ,  4-leg manual   ,89,90,Comments Section,0,0
+Team 50,50,School,16,  manual  ,29,13:56,47:27,20:30,42,  Saturday  ,  2-leg overall  ,37,13,Comments Section,0,0
+Team 51,51,School,61,  auto  ,49,15:54,42:41,18:26,12,  Sunday  ,  2-leg overall  ,44,65,Comments Section,0,0
+Team 52,52,School,70,  auto  ,16,49:19,31:29,17:34,55,  Saturday  ,  4-leg overall  ,47,69,Comments Section,0,0
+Team 53,53,School,25,  auto fb  ,84,26:59,35:26,59:42,74,  Saturday  ,  2-leg manual   ,51,69,Comments Section,0,0
+Team 54,54,School,75,  auto  ,40,40:23,19:8,37:5,44,  Sunday  ,  4-leg overall  ,50,15,Comments Section,0,0
+Team 55,55,School,82,  auto fb  ,28,4:57,21:51,52:38,32,  Sunday  ,  4-leg manual   ,49,22,Comments Section,0,0
+Team 56,56,School,52,  auto fb  ,10,59:27,57:8,52:56,39,  Saturday  ,  2-leg manual   ,60,58,Comments Section,0,0
+Team 57,57,School,69,  manual  ,53,19:25,21:39,16:26,31,  Saturday  ,  4-leg manual   ,38,64,Comments Section,0,0
+Team 58,58,School,78,  auto  ,90,21:19,31:6,29:28,83,  Sunday  ,  4-leg manual   ,70,6,Comments Section,0,0
+Team 59,59,School,64,  auto fb  ,88,6:42,53:45,50:16,21,  Sunday  ,  4-leg manual   ,8,51,Comments Section,0,0
+Team 60,60,School,21,  manual  ,16,18:9,9:3,60:48,36,  Saturday  ,  4-leg overall  ,43,67,Comments Section,0,0
+Team 61,61,School,84,  auto fb  ,44,8:10,29:53,28:33,29,  Saturday  ,  2-leg manual   ,93,97,Comments Section,0,0
+Team 62,62,School,58,  auto  ,75,23:27,51:36,16:26,93,  Saturday  ,  4-leg manual   ,43,86,Comments Section,0,0
+Team 63,63,School,36,  manual  ,42,25:37,16:53,50:60,94,  Saturday  ,  4-leg overall  ,60,1,Comments Section,0,0
+Team 64,64,School,56,  auto  ,70,19:2,11:42,27:5,79,  Sunday  ,  2-leg overall  ,84,64,Comments Section,0,0
+Team 65,65,School,87,  auto fb  ,97,16:42,21:12,2:12,30,  Saturday  ,  4-leg overall  ,52,60,Comments Section,0,0
+Team 66,66,School,61,  auto fb  ,53,16:29,45:10,10:45,17,  Sunday  ,  4-leg manual   ,43,66,Comments Section,0,0
+Team 67,67,School,24,  auto  ,80,30:17,13:24,38:5,29,  Saturday  ,  2-leg manual   ,7,31,Comments Section,0,0
+Team 68,68,School,74,  auto  ,49,22:31,3:52,49:19,99,  Sunday  ,  4-leg manual   ,50,56,Comments Section,0,0
+Team 69,69,School,37,  auto fb  ,61,59:27,7:33,33:49,77,  Sunday  ,  4-leg overall  ,71,91,Comments Section,0,0
+Team 70,70,School,25,  manual  ,39,24:5,35:45,21:1,32,  Saturday  ,  2-leg overall  ,93,89,Comments Section,0,0
+Team 71,71,School,29,  auto fb  ,51,49:60,23:57,49:36,62,  Saturday  ,  4-leg overall  ,74,52,Comments Section,0,0
+Team 72,72,School,23,  auto  ,101,17:13,36:18,58:48,91,  Saturday  ,  4-leg manual   ,100,67,Comments Section,0,0
+Team 73,73,School,90,  manual  ,2,27:43,34:48,57:47,70,  Sunday  ,  4-leg overall  ,101,30,Comments Section,0,0
+Team 74,74,School,45,  auto  ,95,28:54,34:5,48:33,48,  Saturday  ,  2-leg overall  ,53,96,Comments Section,0,0
+Team 75,75,School,28,  auto  ,94,59:47,50:6,17:14,85,  Sunday  ,  4-leg overall  ,50,26,Comments Section,0,0
+Team 76,76,School,94,  auto fb  ,99,16:45,7:23,7:41,85,  Sunday  ,  2-leg overall  ,65,15,Comments Section,0,0
+Team 77,77,School,21,  auto fb  ,78,46:53,35:6,1:46,84,  Sunday  ,  4-leg overall  ,22,83,Comments Section,0,0
+Team 78,78,School,83,  manual  ,32,54:32,30:43,43:18,21,  Saturday  ,  2-leg overall  ,36,100,Comments Section,0,0
+Team 79,79,School,62,  auto  ,27,29:52,7:7,6:52,100,  Saturday  ,  4-leg overall  ,97,100,Comments Section,0,0
+Team 80,80,School,53,  auto  ,76,46:48,18:8,15:14,98,  Sunday  ,  4-leg overall  ,87,84,Comments Section,0,0
+Team 81,81,School,4,  auto fb  ,93,25:37,34:17,9:37,44,  Sunday  ,  4-leg overall  ,68,98,Comments Section,0,0
+Team 82,82,School,92,  auto fb  ,63,14:37,58:44,39:28,19,  Sunday  ,  4-leg manual   ,52,67,Comments Section,0,0
+Team 83,83,School,97,  manual  ,91,31:1,57:42,10:39,65,  Saturday  ,  2-leg manual   ,66,79,Comments Section,0,0
+Team 84,84,School,93,  auto  ,89,26:50,24:8,38:41,17,  Saturday  ,  2-leg manual   ,33,19,Comments Section,0,0
+Team 85,85,School,6,  auto fb  ,96,2:31,31:9,50:27,3,  Saturday  ,  2-leg overall  ,19,75,Comments Section,0,0
+Team 86,86,School,21,  auto  ,97,35:28,26:27,49:49,13,  Sunday  ,  2-leg manual   ,61,43,Comments Section,0,0
+Team 87,87,School,48,  auto  ,96,28:4,46:55,31:1,56,  Saturday  ,  2-leg overall  ,83,14,Comments Section,0,0
+Team 88,88,School,37,  manual  ,79,45:5,51:46,17:37,44,  Saturday  ,  4-leg overall  ,86,62,Comments Section,0,0
+Team 89,89,School,23,  auto fb  ,66,39:58,10:38,10:2,33,  Saturday  ,  4-leg manual   ,72,11,Comments Section,0,0
+Team 90,90,School,29,  auto  ,88,58:26,59:32,51:51,37,  Sunday  ,  2-leg overall  ,61,75,Comments Section,0,0
+Team 91,91,School,26,  manual  ,35,37:53,30:39,42:33,32,  Saturday  ,  2-leg manual   ,40,48,Comments Section,0,0
+Team 92,92,School,50,  auto  ,89,5:39,22:22,60:20,36,  Saturday  ,  2-leg manual   ,69,76,Comments Section,0,0
+Team 93,93,School,80,  auto  ,58,51:36,10:6,51:3,42,  Saturday  ,  2-leg overall  ,37,10,Comments Section,0,0
+Team 94,94,School,10,  auto fb  ,17,57:15,46:2,14:59,54,  Saturday  ,  4-leg manual   ,53,64,Comments Section,0,0
+Team 95,95,School,50,  manual  ,19,3:18,27:28,30:57,16,  Saturday  ,  2-leg manual   ,34,95,Comments Section,0,0
+Team 96,96,School,70,  auto  ,8,47:43,17:56,31:33,59,  Saturday  ,  2-leg manual   ,87,26,Comments Section,0,0
+Team 97,97,School,64,  auto fb  ,21,26:22,56:1,38:49,19,  Sunday  ,  4-leg manual   ,21,74,Comments Section,0,0
+Team 98,98,School,47,  manual  ,90,38:45,44:12,19:18,100,  Sunday  ,  2-leg overall  ,24,61,Comments Section,0,0
+Team 99,99,School,27,  manual  ,85,6:30,5:24,24:53,101,  Sunday  ,  2-leg manual   ,59,52,Comments Section,0,0
+Team 100,100,School,70,  auto fb  ,13,52:40,22:22,43:27,89,  Sunday  ,  2-leg manual   ,41,55,Comments Section,0,0
+Team 101,101,School,31,  manual  ,17,25:12,32:48,17:34,73,  Sunday  ,  2-leg overall  ,79,45,Comments Section,0,0
+Team 102,102,School,53,  auto  ,82,51:10,38:10,4:54,32,  Saturday  ,  2-leg manual   ,14,74,Comments Section,0,0
+Team 103,103,School,94,  auto fb  ,98,40:3,47:16,24:38,4,  Saturday  ,  2-leg overall  ,31,37,Comments Section,0,0
+Team 104,104,School,42,  auto  ,29,4:58,5:31,33:6,6,  Saturday  ,  2-leg manual   ,86,56,Comments Section,0,0
+Team 105,105,School,35,  auto fb  ,61,14:28,30:56,47:55,60,  Saturday  ,  2-leg overall  ,37,52,Comments Section,0,0
+Team 106,106,School,4,  auto fb  ,23,54:52,56:41,12:35,61,  Saturday  ,  4-leg manual   ,93,10,Comments Section,0,0
+Team 107,107,School,85,  auto fb  ,18,36:28,26:41,22:50,72,  Sunday  ,  4-leg overall  ,100,79,Comments Section,0,0
+Team 108,108,School,46,  auto  ,35,38:34,20:44,45:34,4,  Sunday  ,  2-leg overall  ,76,63,Comments Section,0,0
+Team 109,109,School,44,  auto  ,77,39:31,20:2,37:1,67,  Sunday  ,  4-leg overall  ,48,26,Comments Section,0,0
+Team 110,110,School,11,  auto fb  ,39,27:10,58:5,17:5,88,  Sunday  ,  4-leg manual   ,24,55,Comments Section,0,0
+Team 111,111,School,28,  manual  ,94,60:49,16:48,34:34,78,  Saturday  ,  2-leg manual   ,55,85,Comments Section,0,0
+Team 112,112,School,19,  manual  ,87,25:3,10:10,54:19,43,  Sunday  ,  2-leg manual   ,47,26,Comments Section,0,0
+Team 113,113,School,33,  manual  ,75,11:49,28:16,56:56,87,  Saturday  ,  4-leg manual   ,49,89,Comments Section,0,0
+Team 114,114,School,86,  manual  ,5,43:33,47:3,42:19,57,  Sunday  ,  4-leg overall  ,70,60,Comments Section,0,0
+Team 115,115,School,33,  manual  ,76,27:10,43:24,38:53,43,  Sunday  ,  4-leg manual   ,2,98,Comments Section,0,0
+Team 116,116,School,1,  auto  ,63,55:21,57:40,30:22,75,  Saturday  ,  2-leg overall  ,57,68,Comments Section,0,0
+Team 117,117,School,56,  auto  ,89,17:56,38:12,17:21,9,  Saturday  ,  2-leg overall  ,50,59,Comments Section,0,0
+Team 118,118,School,64,  auto  ,86,29:30,59:15,7:59,94,  Saturday  ,  4-leg overall  ,64,25,Comments Section,0,0
+Team 119,119,School,28,  auto  ,34,38:28,59:46,23:54,69,  Sunday  ,  2-leg manual   ,75,70,Comments Section,0,0
+Team 120,120,School,3,  manual  ,96,24:19,10:15,24:58,78,  Sunday  ,  4-leg manual   ,92,33,Comments Section,0,0
+Team 121,121,School,54,  auto  ,48,14:1,9:38,21:37,61,  Sunday  ,  4-leg overall  ,44,12,Comments Section,0,0
+Team 122,122,School,75,  manual  ,56,48:45,7:49,57:21,93,  Sunday  ,  4-leg manual   ,79,67,Comments Section,0,0
+Team 123,123,School,7,  auto  ,55,60:56,20:30,14:13,78,  Saturday  ,  2-leg manual   ,47,72,Comments Section,0,0
+Team 124,124,School,13,  auto fb  ,87,2:4,58:41,3:21,34,  Saturday  ,  4-leg manual   ,94,17,Comments Section,0,0
+Team 125,125,School,56,  manual  ,97,44:33,40:22,5:58,56,  Saturday  ,  4-leg overall  ,13,68,Comments Section,0,0
+Team 126,126,School,22,  auto fb  ,37,28:60,22:34,56:54,10,  Saturday  ,  2-leg manual   ,53,10,Comments Section,0,0
+Team 127,127,School,79,  manual  ,63,59:24,13:35,36:34,52,  Sunday  ,  2-leg overall  ,27,3,Comments Section,0,0
+Team 128,128,School,27,  auto fb  ,22,9:14,23:42,51:25,68,  Sunday  ,  4-leg overall  ,23,19,Comments Section,0,0
+Team 129,129,School,33,  auto fb  ,44,1:1,34:45,59:33,68,  Sunday  ,  4-leg overall  ,9,32,Comments Section,0,0
+Team 130,130,School,26,  auto  ,42,26:36,37:35,5:49,91,  Sunday  ,  4-leg overall  ,68,30,Comments Section,0,0
+Team 131,131,School,16,  manual  ,17,44:58,24:30,42:50,27,  Saturday  ,  4-leg manual   ,63,81,Comments Section,0,0
+Team 132,132,School,2,  manual  ,43,43:16,43:28,11:19,39,  Sunday  ,  4-leg overall  ,11,14,Comments Section,0,0
+Team 133,133,School,25,  auto fb  ,22,10:27,26:41,30:28,1,  Saturday  ,  4-leg overall  ,17,41,Comments Section,0,0
+Team 134,134,School,31,  auto fb  ,58,53:37,24:15,42:19,60,  Sunday  ,  4-leg overall  ,5,100,Comments Section,0,0
+Team 135,135,School,30,  auto fb  ,29,22:36,48:40,7:53,18,  Sunday  ,  4-leg manual   ,83,48,Comments Section,0,0
+Team 136,136,School,88,  auto fb  ,23,22:8,47:12,28:48,38,  Saturday  ,  4-leg manual   ,4,58,Comments Section,0,0
+Team 137,137,School,40,  manual  ,27,25:35,33:10,25:1,80,  Sunday  ,  2-leg manual   ,96,20,Comments Section,0,0
+Team 138,138,School,35,  manual  ,93,21:31,38:3,20:37,34,  Saturday  ,  2-leg overall  ,56,87,Comments Section,0,0
+Team 139,139,School,97,  auto  ,76,18:49,12:37,27:37,40,  Saturday  ,  4-leg manual   ,82,8,Comments Section,0,0
+Team 140,140,School,86,  auto  ,2,10:30,32:9,3:9,98,  Sunday  ,  2-leg manual   ,17,93,Comments Section,0,0
+Team 141,141,School,54,  auto  ,98,14:43,9:13,18:58,92,  Saturday  ,  2-leg overall  ,6,45,Comments Section,0,0
+Team 142,142,School,12,  auto fb  ,88,36:5,9:41,33:27,82,  Sunday  ,  2-leg overall  ,77,62,Comments Section,0,0
+Team 143,143,School,62,  auto  ,50,26:48,58:9,32:7,71,  Saturday  ,  2-leg manual   ,38,100,Comments Section,0,0
+Team 144,144,School,88,  auto fb  ,31,9:26,3:59,31:39,58,  Saturday  ,  2-leg overall  ,69,77,Comments Section,0,0
+Team 145,145,School,6,  auto fb  ,77,26:26,4:34,33:25,67,  Sunday  ,  2-leg overall  ,67,61,Comments Section,0,0
+Team 146,146,School,29,  auto fb  ,70,28:22,2:47,8:27,89,  Sunday  ,  2-leg manual   ,78,3,Comments Section,0,0
+Team 147,147,School,88,  auto fb  ,62,29:18,57:46,33:55,89,  Sunday  ,  4-leg overall  ,56,93,Comments Section,0,0
+Team 148,148,School,101,  auto  ,42,32:53,53:45,18:11,39,  Sunday  ,  4-leg manual   ,65,37,Comments Section,0,0
+Team 149,149,School,21,  auto fb  ,19,2:41,57:60,36:31,83,  Saturday  ,  4-leg manual   ,63,63,Comments Section,0,0
+Team 150,150,School,12,  auto fb  ,32,50:35,39:18,47:32,54,  Saturday  ,  4-leg overall  ,88,13,Comments Section,0,0
+Team 151,151,School,30,  auto  ,99,31:36,15:35,11:58,40,  Saturday  ,  2-leg overall  ,15,20,Comments Section,0,0
+Team 152,152,School,51,  auto fb  ,24,26:46,25:57,35:27,54,  Saturday  ,  4-leg overall  ,6,88,Comments Section,0,0
+Team 153,153,School,1,  manual  ,101,46:7,24:44,21:41,81,  Sunday  ,  4-leg overall  ,9,51,Comments Section,0,0
+Team 154,154,School,97,  manual  ,96,27:37,12:11,47:3,41,  Saturday  ,  2-leg manual   ,34,60,Comments Section,0,0
+Team 155,155,School,65,  auto fb  ,93,22:50,12:33,40:45,36,  Saturday  ,  2-leg overall  ,8,90,Comments Section,0,0
+Team 156,156,School,91,  auto  ,98,39:43,22:37,3:44,32,  Sunday  ,  2-leg manual   ,95,9,Comments Section,0,0
+Team 157,157,School,78,  manual  ,9,22:15,32:41,8:10,38,  Sunday  ,  4-leg overall  ,49,95,Comments Section,0,0
+Team 158,158,School,75,  auto fb  ,39,31:54,44:48,24:60,59,  Saturday  ,  2-leg overall  ,99,82,Comments Section,0,0
+Team 159,159,School,66,  auto fb  ,71,7:48,55:57,18:28,75,  Saturday  ,  2-leg manual   ,101,11,Comments Section,0,0
+Team 160,160,School,25,  auto fb  ,10,15:5,14:14,48:38,59,  Sunday  ,  2-leg manual   ,72,6,Comments Section,0,0
+Team 161,161,School,31,  auto fb  ,44,53:31,40:46,49:18,23,  Sunday  ,  2-leg manual   ,85,80,Comments Section,0,0
+Team 162,162,School,27,  auto fb  ,84,14:47,40:12,6:41,6,  Saturday  ,  2-leg overall  ,20,42,Comments Section,0,0
+Team 163,163,School,50,  manual  ,31,4:14,1:2,7:17,20,  Sunday  ,  2-leg manual   ,1,67,Comments Section,0,0
+Team 164,164,School,9,  manual  ,65,49:21,12:13,24:10,51,  Saturday  ,  2-leg overall  ,33,83,Comments Section,0,0
+Team 165,165,School,53,  auto  ,78,12:56,39:10,55:12,54,  Saturday  ,  4-leg overall  ,47,91,Comments Section,0,0
+Team 166,166,School,48,  auto fb  ,53,19:37,50:17,21:14,3,  Saturday  ,  4-leg manual   ,66,75,Comments Section,0,0
+Team 167,167,School,101,  auto  ,29,16:4,1:5,45:25,52,  Sunday  ,  4-leg manual   ,44,88,Comments Section,0,0
+Team 168,168,School,39,  manual  ,94,34:45,37:23,57:59,11,  Saturday  ,  4-leg overall  ,14,54,Comments Section,0,0
+Team 169,169,School,67,  manual  ,4,24:19,3:20,54:13,74,  Saturday  ,  4-leg overall  ,81,34,Comments Section,0,0
+Team 170,170,School,87,  manual  ,64,11:29,38:44,40:9,77,  Saturday  ,  4-leg overall  ,60,55,Comments Section,0,0
+Team 171,171,School,23,  auto fb  ,70,46:42,45:38,21:40,82,  Sunday  ,  2-leg overall  ,57,45,Comments Section,0,0
+Team 172,172,School,63,  auto fb  ,29,41:4,49:14,21:14,50,  Saturday  ,  4-leg overall  ,1,52,Comments Section,0,0
+Team 173,173,School,25,  manual  ,44,19:47,53:57,28:14,13,  Sunday  ,  2-leg overall  ,29,18,Comments Section,0,0
+Team 174,174,School,56,  manual  ,17,16:38,57:33,14:49,49,  Saturday  ,  2-leg manual   ,50,101,Comments Section,0,0
+Team 175,175,School,90,  manual  ,14,12:13,14:48,16:14,41,  Saturday  ,  2-leg manual   ,70,38,Comments Section,0,0
+Team 176,176,School,39,  auto  ,42,16:35,58:52,13:33,87,  Saturday  ,  2-leg manual   ,74,26,Comments Section,0,0
+Team 177,177,School,64,  auto fb  ,46,58:41,20:50,37:19,43,  Sunday  ,  2-leg manual   ,39,100,Comments Section,0,0
+Team 178,178,School,100,  auto fb  ,25,57:13,19:5,50:29,76,  Saturday  ,  4-leg manual   ,16,99,Comments Section,0,0
+Team 179,179,School,22,  auto fb  ,88,33:20,46:15,47:45,89,  Sunday  ,  4-leg overall  ,19,23,Comments Section,0,0
+Team 180,180,School,29,  manual  ,73,27:41,25:39,41:51,100,  Sunday  ,  4-leg overall  ,38,26,Comments Section,0,0
+Team 181,181,School,92,  auto  ,99,38:38,55:8,27:6,23,  Sunday  ,  4-leg overall  ,32,42,Comments Section,0,0
+Team 182,182,School,15,  auto  ,33,41:46,37:54,24:49,55,  Saturday  ,  2-leg manual   ,37,75,Comments Section,0,0
+Team 183,183,School,61,  manual  ,44,2:7,52:54,45:53,48,  Saturday  ,  4-leg manual   ,7,5,Comments Section,0,0
+Team 184,184,School,33,  manual  ,28,8:34,12:4,25:43,67,  Saturday  ,  2-leg manual   ,10,52,Comments Section,0,0
+Team 185,185,School,35,  auto  ,83,19:53,10:5,55:58,87,  Sunday  ,  2-leg manual   ,21,93,Comments Section,0,0
+Team 186,186,School,36,  auto fb  ,87,48:41,39:32,60:3,20,  Sunday  ,  4-leg manual   ,94,21,Comments Section,0,0
+Team 187,187,School,30,  auto fb  ,74,38:16,10:12,40:30,10,  Saturday  ,  2-leg manual   ,70,81,Comments Section,0,0
+Team 188,188,School,6,  manual  ,9,29:41,13:46,40:46,12,  Sunday  ,  4-leg manual   ,39,47,Comments Section,0,0
+Team 189,189,School,101,  auto  ,71,13:47,32:55,29:7,26,  Saturday  ,  4-leg overall  ,7,6,Comments Section,0,0
+Team 190,190,School,26,  auto  ,77,54:6,14:59,21:33,88,  Sunday  ,  2-leg overall  ,84,58,Comments Section,0,0
+Team 191,191,School,92,  auto fb  ,40,12:3,56:32,52:9,15,  Saturday  ,  2-leg manual   ,72,86,Comments Section,0,0
+Team 192,192,School,71,  auto fb  ,101,51:19,3:45,27:55,78,  Sunday  ,  4-leg manual   ,41,77,Comments Section,0,0
+Team 193,193,School,4,  manual  ,95,39:44,30:32,42:38,71,  Saturday  ,  2-leg manual   ,20,78,Comments Section,0,0
+Team 194,194,School,78,  auto fb  ,68,24:7,20:14,20:43,14,  Sunday  ,  4-leg manual   ,39,78,Comments Section,0,0
+Team 195,195,School,40,  auto  ,80,17:58,30:48,59:16,15,  Saturday  ,  4-leg overall  ,31,88,Comments Section,0,0
+Team 196,196,School,30,  auto  ,13,4:51,46:26,23:25,10,  Sunday  ,  2-leg manual   ,65,21,Comments Section,0,0
+Team 197,197,School,66,  auto fb  ,74,51:20,6:1,60:14,94,  Sunday  ,  4-leg overall  ,59,24,Comments Section,0,0
+Team 198,198,School,50,  auto  ,16,32:13,26:52,31:36,43,  Sunday  ,  4-leg manual   ,40,84,Comments Section,0,0
+Team 199,199,School,5,  manual  ,50,24:28,14:43,44:2,15,  Sunday  ,  4-leg manual   ,8,85,Comments Section,0,0
+Team 200,200,School,86,  auto fb  ,62,51:35,28:22,19:48,101,  Sunday  ,  4-leg manual   ,5,35,Comments Section,0,0
+Team 201,201,School,31,  auto  ,78,37:47,41:6,10:11,63,  Saturday  ,  2-leg manual   ,99,82,Comments Section,0,0
+Team 202,202,School,91,  auto fb  ,1,24:19,20:31,28:57,30,  Sunday  ,  4-leg manual   ,47,88,Comments Section,0,0
+Team 203,203,School,68,  auto  ,2,6:20,13:21,29:48,36,  Sunday  ,  2-leg manual   ,37,1,Comments Section,0,0
+Team 204,204,School,40,  auto fb  ,9,44:7,14:45,24:6,86,  Saturday  ,  4-leg manual   ,45,80,Comments Section,0,0
+Team 205,205,School,90,  auto fb  ,7,53:34,18:31,5:60,27,  Saturday  ,  4-leg manual   ,45,49,Comments Section,0,0
+Team 206,206,School,9,  manual  ,51,30:48,14:10,32:6,22,  Sunday  ,  4-leg manual   ,24,79,Comments Section,0,0
+Team 207,207,School,58,  auto  ,2,15:5,43:53,49:53,65,  Saturday  ,  4-leg overall  ,22,26,Comments Section,0,0
+Team 208,208,School,2,  auto fb  ,61,27:20,45:24,53:58,41,  Saturday  ,  4-leg manual   ,87,96,Comments Section,0,0
+Team 209,209,School,71,  manual  ,33,47:8,30:14,2:35,71,  Sunday  ,  4-leg overall  ,35,18,Comments Section,0,0
+Team 210,210,School,27,  auto fb  ,17,38:36,53:51,2:25,58,  Sunday  ,  2-leg manual   ,45,87,Comments Section,0,0
+Team 211,211,School,5,  auto  ,10,48:34,17:38,56:23,13,  Saturday  ,  4-leg manual   ,72,81,Comments Section,0,0
+Team 212,212,School,20,  auto  ,54,2:57,60:58,40:2,22,  Saturday  ,  4-leg overall  ,31,86,Comments Section,0,0
+Team 213,213,School,96,  auto  ,78,13:13,48:31,27:15,76,  Sunday  ,  2-leg manual   ,15,91,Comments Section,0,0
+Team 214,214,School,14,  manual  ,80,40:38,48:25,38:21,4,  Saturday  ,  2-leg overall  ,88,21,Comments Section,0,0
+Team 215,215,School,6,  manual  ,57,16:40,55:50,56:35,26,  Sunday  ,  4-leg manual   ,72,51,Comments Section,0,0
+Team 216,216,School,10,  auto fb  ,82,60:24,11:17,34:51,65,  Saturday  ,  2-leg manual   ,68,79,Comments Section,0,0
+Team 217,217,School,14,  manual  ,97,17:39,39:56,29:43,101,  Saturday  ,  4-leg manual   ,25,56,Comments Section,0,0
+Team 218,218,School,16,  manual  ,22,16:7,16:39,6:9,70,  Sunday  ,  2-leg manual   ,86,40,Comments Section,0,0
+Team 219,219,School,35,  auto fb  ,44,53:7,37:42,46:2,15,  Sunday  ,  4-leg overall  ,49,29,Comments Section,0,0
+Team 220,220,School,68,  auto  ,71,55:18,10:18,28:6,37,  Sunday  ,  4-leg manual   ,91,7,Comments Section,0,0
+Team 221,221,School,83,  auto fb  ,20,45:7,25:19,3:20,101,  Sunday  ,  2-leg overall  ,77,50,Comments Section,0,0
+Team 222,222,School,31,  auto fb  ,95,14:19,58:54,7:34,86,  Sunday  ,  2-leg manual   ,56,95,Comments Section,0,0
+Team 223,223,School,42,  auto  ,92,5:47,9:8,42:21,88,  Saturday  ,  2-leg manual   ,55,99,Comments Section,0,0
+Team 224,224,School,93,  manual  ,15,7:35,18:31,34:46,49,  Sunday  ,  4-leg manual   ,72,64,Comments Section,0,0
+Team 225,225,School,101,  manual  ,72,25:3,35:6,26:48,93,  Saturday  ,  4-leg overall  ,55,88,Comments Section,0,0
+Team 226,226,School,29,  manual  ,28,49:30,56:10,25:32,77,  Sunday  ,  2-leg overall  ,2,41,Comments Section,0,0
+Team 227,227,School,29,  auto fb  ,38,36:17,25:47,53:11,21,  Saturday  ,  2-leg manual   ,40,75,Comments Section,0,0
+Team 228,228,School,91,  auto fb  ,97,53:59,15:11,37:57,40,  Sunday  ,  4-leg overall  ,34,27,Comments Section,0,0
+Team 229,229,School,33,  auto  ,86,39:13,44:4,41:2,81,  Saturday  ,  2-leg manual   ,21,22,Comments Section,0,0
+Team 230,230,School,13,  manual  ,17,45:38,59:51,34:60,56,  Sunday  ,  2-leg manual   ,41,23,Comments Section,0,0
+Team 231,231,School,3,  manual  ,64,41:49,31:31,53:36,70,  Sunday  ,  4-leg overall  ,5,2,Comments Section,0,0
+Team 232,232,School,3,  auto  ,7,7:32,10:27,23:36,75,  Saturday  ,  4-leg overall  ,40,60,Comments Section,0,0
+Team 233,233,School,2,  auto fb  ,9,39:31,21:24,5:30,44,  Sunday  ,  2-leg manual   ,35,4,Comments Section,0,0
+Team 234,234,School,83,  auto  ,86,14:55,29:3,30:14,41,  Sunday  ,  4-leg overall  ,22,7,Comments Section,0,0
+Team 235,235,School,17,  auto  ,50,56:18,24:1,16:4,19,  Saturday  ,  2-leg manual   ,83,83,Comments Section,0,0
+Team 236,236,School,53,  auto  ,69,57:12,46:45,9:33,4,  Saturday  ,  2-leg manual   ,39,7,Comments Section,0,0
+Team 237,237,School,28,  auto fb  ,45,26:11,11:2,19:40,24,  Sunday  ,  2-leg manual   ,8,43,Comments Section,0,0
+Team 238,238,School,39,  auto  ,43,16:30,1:14,2:42,20,  Sunday  ,  2-leg overall  ,89,34,Comments Section,0,0
+Team 239,239,School,37,  manual  ,34,26:22,57:3,39:4,40,  Sunday  ,  2-leg overall  ,64,49,Comments Section,0,0
+Team 240,240,School,40,  auto  ,20,31:58,34:27,2:19,48,  Sunday  ,  2-leg manual   ,49,99,Comments Section,0,0
+Team 241,241,School,28,  manual  ,84,54:41,26:21,40:47,86,  Saturday  ,  4-leg manual   ,55,61,Comments Section,0,0
+Team 242,242,School,79,  manual  ,57,45:6,13:17,17:44,73,  Saturday  ,  4-leg overall  ,3,38,Comments Section,0,0
+Team 243,243,School,76,  auto  ,76,26:6,26:16,41:10,44,  Sunday  ,  4-leg manual   ,31,58,Comments Section,0,0
+Team 244,244,School,6,  auto fb  ,35,19:55,30:9,46:10,4,  Sunday  ,  4-leg overall  ,101,16,Comments Section,0,0
+Team 245,245,School,84,  auto fb  ,16,56:39,55:29,33:34,30,  Sunday  ,  2-leg overall  ,62,24,Comments Section,0,0
+Team 246,246,School,29,  manual  ,19,30:51,48:27,2:11,76,  Sunday  ,  4-leg overall  ,100,100,Comments Section,0,0
+Team 247,247,School,25,  auto fb  ,21,41:4,11:53,46:26,12,  Saturday  ,  4-leg manual   ,44,22,Comments Section,0,0
+Team 248,248,School,39,  auto  ,41,36:56,53:52,39:60,95,  Sunday  ,  2-leg overall  ,65,49,Comments Section,0,0
+Team 249,249,School,9,  auto fb  ,40,14:15,10:33,46:17,17,  Sunday  ,  2-leg manual   ,101,92,Comments Section,0,0
+Team 250,250,School,47,  manual  ,54,24:53,25:52,26:2,32,  Saturday  ,  4-leg overall  ,101,8,Comments Section,0,0
+Team 251,251,School,15,  auto fb  ,49,56:16,36:27,5:46,31,  Saturday  ,  4-leg overall  ,77,80,Comments Section,0,0
+Team 252,252,School,73,  auto fb  ,89,3:28,56:23,13:17,5,  Saturday  ,  4-leg overall  ,69,78,Comments Section,0,0
+Team 253,253,School,20,  auto fb  ,55,47:34,23:23,33:27,65,  Saturday  ,  2-leg overall  ,9,62,Comments Section,0,0
+Team 254,254,School,19,  auto fb  ,100,22:49,52:40,42:9,63,  Saturday  ,  2-leg manual   ,57,47,Comments Section,0,0
+Team 255,255,School,74,  auto  ,66,31:27,46:55,29:41,27,  Sunday  ,  2-leg overall  ,58,95,Comments Section,0,0
+Team 256,256,School,46,  auto fb  ,61,11:20,21:51,24:38,39,  Sunday  ,  2-leg manual   ,73,77,Comments Section,0,0
+Team 257,257,School,49,  auto fb  ,46,54:28,38:12,20:6,22,  Saturday  ,  4-leg overall  ,34,86,Comments Section,0,0
+Team 258,258,School,20,  auto  ,48,36:16,37:42,29:47,77,  Sunday  ,  4-leg manual   ,15,64,Comments Section,0,0
+Team 259,259,School,11,  manual  ,17,27:25,37:34,23:38,70,  Sunday  ,  2-leg overall  ,4,94,Comments Section,0,0
+Team 260,260,School,6,  auto  ,7,12:4,30:30,19:59,73,  Sunday  ,  4-leg overall  ,34,21,Comments Section,0,0
+Team 261,261,School,28,  auto  ,34,55:60,42:24,49:7,26,  Sunday  ,  2-leg overall  ,70,55,Comments Section,0,0
+Team 262,262,School,91,  auto fb  ,53,43:3,50:28,58:43,53,  Saturday  ,  2-leg manual   ,27,96,Comments Section,0,0
+Team 263,263,School,22,  auto fb  ,93,56:3,5:14,46:33,22,  Saturday  ,  2-leg overall  ,10,73,Comments Section,0,0
+Team 264,264,School,37,  auto fb  ,79,49:9,38:10,54:52,7,  Sunday  ,  2-leg overall  ,58,66,Comments Section,0,0
+Team 265,265,School,58,  manual  ,19,48:56,24:1,24:13,33,  Saturday  ,  2-leg overall  ,40,27,Comments Section,0,0
+Team 266,266,School,58,  auto  ,2,59:33,59:38,44:51,37,  Saturday  ,  4-leg manual   ,100,66,Comments Section,0,0
+Team 267,267,School,88,  auto  ,17,59:15,30:20,59:24,94,  Saturday  ,  4-leg manual   ,9,85,Comments Section,0,0
+Team 268,268,School,90,  manual  ,72,41:10,40:7,60:29,21,  Saturday  ,  4-leg overall  ,57,29,Comments Section,0,0
+Team 269,269,School,35,  auto fb  ,2,23:1,24:22,17:59,52,  Sunday  ,  2-leg overall  ,11,81,Comments Section,0,0
+Team 270,270,School,76,  auto  ,40,56:55,12:42,5:50,71,  Sunday  ,  2-leg overall  ,68,21,Comments Section,0,0
+Team 271,271,School,62,  auto fb  ,85,28:29,24:1,36:26,9,  Sunday  ,  2-leg manual   ,90,65,Comments Section,0,0
+Team 272,272,School,56,  auto fb  ,56,58:51,14:47,16:13,84,  Saturday  ,  2-leg manual   ,96,54,Comments Section,0,0
+Team 273,273,School,44,  manual  ,96,33:54,44:18,38:60,26,  Saturday  ,  2-leg overall  ,83,39,Comments Section,0,0
+Team 274,274,School,10,  manual  ,96,39:21,5:18,3:38,95,  Sunday  ,  4-leg manual   ,53,92,Comments Section,0,0
+Team 275,275,School,92,  manual  ,63,2:6,45:48,28:16,89,  Saturday  ,  4-leg manual   ,15,7,Comments Section,0,0
+Team 276,276,School,70,  auto  ,94,46:28,26:40,11:2,81,  Saturday  ,  2-leg manual   ,97,35,Comments Section,0,0
+Team 277,277,School,68,  manual  ,64,8:58,35:21,42:5,24,  Saturday  ,  2-leg overall  ,101,53,Comments Section,0,0
+Team 278,278,School,2,  auto  ,96,26:19,57:7,47:36,29,  Saturday  ,  2-leg manual   ,81,74,Comments Section,0,0
+Team 279,279,School,20,  auto  ,99,60:59,32:56,33:3,101,  Saturday  ,  2-leg overall  ,71,95,Comments Section,0,0
+Team 280,280,School,31,  manual  ,101,23:41,60:58,45:15,91,  Sunday  ,  2-leg manual   ,21,99,Comments Section,0,0
+Team 281,281,School,46,  auto fb  ,36,5:9,8:10,3:30,26,  Sunday  ,  2-leg manual   ,96,16,Comments Section,0,0
+Team 282,282,School,75,  manual  ,75,8:39,5:38,12:17,97,  Saturday  ,  4-leg manual   ,34,93,Comments Section,0,0
+Team 283,283,School,21,  auto fb  ,4,19:2,9:35,9:44,1,  Sunday  ,  2-leg manual   ,83,30,Comments Section,0,0
+Team 284,284,School,17,  manual  ,11,35:35,9:2,2:59,24,  Sunday  ,  4-leg overall  ,46,98,Comments Section,0,0
+Team 285,285,School,4,  manual  ,72,17:32,28:4,3:48,26,  Saturday  ,  4-leg manual   ,58,50,Comments Section,0,0
+Team 286,286,School,28,  auto fb  ,75,48:44,56:45,7:37,52,  Sunday  ,  2-leg manual   ,56,55,Comments Section,0,0
+Team 287,287,School,100,  manual  ,61,53:6,33:46,7:27,58,  Sunday  ,  2-leg manual   ,100,38,Comments Section,0,0
+Team 288,288,School,91,  auto fb  ,59,57:54,47:3,12:56,65,  Saturday  ,  2-leg overall  ,19,71,Comments Section,0,0
+Team 289,289,School,32,  auto  ,6,37:6,53:22,7:13,84,  Sunday  ,  4-leg manual   ,15,35,Comments Section,0,0
+Team 290,290,School,87,  auto  ,44,31:22,35:49,35:1,46,  Saturday  ,  2-leg overall  ,100,43,Comments Section,0,0
+Team 291,291,School,53,  auto fb  ,63,26:34,4:34,2:22,72,  Saturday  ,  4-leg overall  ,91,2,Comments Section,0,0
+Team 292,292,School,14,  manual  ,11,7:54,58:55,50:53,59,  Sunday  ,  2-leg overall  ,25,64,Comments Section,0,0
+Team 293,293,School,45,  manual  ,47,23:30,51:10,19:2,97,  Saturday  ,  4-leg manual   ,28,52,Comments Section,0,0
+Team 294,294,School,75,  auto fb  ,92,8:28,30:10,19:55,3,  Saturday  ,  2-leg overall  ,54,15,Comments Section,0,0
+Team 295,295,School,61,  auto  ,96,10:6,7:4,2:7,86,  Saturday  ,  4-leg overall  ,57,20,Comments Section,0,0
+Team 296,296,School,52,  auto fb  ,100,45:47,2:17,7:17,36,  Saturday  ,  2-leg overall  ,22,85,Comments Section,0,0
+Team 297,297,School,44,  auto fb  ,23,5:42,10:55,5:30,51,  Saturday  ,  4-leg manual   ,53,24,Comments Section,0,0
+Team 298,298,School,89,  auto fb  ,22,30:25,49:55,13:40,93,  Sunday  ,  4-leg manual   ,20,47,Comments Section,0,0
+Team 299,299,School,11,  manual  ,93,39:35,30:14,23:32,100,  Saturday  ,  4-leg overall  ,95,11,Comments Section,0,0

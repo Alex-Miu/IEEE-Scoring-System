@@ -1,0 +1,1 @@
+{"dbName": "testing", "dbIP": "127.0.0.1", "backup": "30000", "fontSize": "11", "dbUser": "program", "dbPass": "program", "dbTable": "2018-01-02 03:25:40"}
