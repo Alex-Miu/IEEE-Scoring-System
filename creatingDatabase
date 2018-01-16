@@ -3,55 +3,101 @@ from __future__ import print_function
 import mysql.connector
 from mysql.connector import errorcode
 
-DB_NAME = 'scoringproject'
+HOST = 'localhost'
+USER = 'root'
+PASSWORD = ''   # Must be set for individual database
+DB_NAME = ''    # Must be set for individual database
+TABLE_NAME = ''
 
-cnx = mysql.connector.connect(   )  # Work in progress
+cnx = mysql.connector.connect(host=HOST, user=USER, passwd=PASSWORD, db=DB_NAME)
 cursor = cnx.cursor()
 
-def generateTables(int year):
-  name = 'competition' + year       # I need to double check if this works
-  commandsToRun = "CREATE TABLE " 
-    name
-    " ("
-    "  'id' INT unsigned NOT NULL AUTO_INCREMENT,"    # Used only for primary key
-    "  'teamName' varchar(150),"                      # Holds the name of team (can be null if name not given)
-    "  'teamNumber' INT unsigned NOT NULL,"           # Holds the assigned team number 
-    "  'school' varchar(150) NOT NULL,"               # Holds the name of the teams school
-    "  'numLegs' INT unsigned NOT NULL,"              # Holds either 2 or 4 depending in number of legs
-    "  'automated' enum('M', 'A', 'AFB') NOT NULL,"   # Reffers to Manual, Automated, or Automated with Feedback
-    "  'day' enum('Sat', 'Sun') NOT NULL,"            # Reffers to whether the team is going on Saturday or Sunday
-    "  'writtenScore' INT unsigned,"                  # Holds score earned from written evaluation (can be null)
-    "  'trackScore' INT unsigned,"                    # Holds score earned from track runs (can be null)
-    "  'oralScore' INT unsigned,"                     # Holds score earned from oral presentation (can be null)
-    "  'fabricationScore' INT unsigned,"              # Holds score earned from fabrication (can be null)
-    "  'runTime1' TIME,"                              # Holds time spent on first run (can be null)
-    "  'runTime2' TIME,"                              # Holds time spent on second run (can be null)
-    "  'runTime3' TIME,"                              # Holds time spent on third run (can be null)
-    "  PRIMARY KEY (`id`)"                            # Sets id as the primary key
-    ") ENGINE=InnoDB"     # I need to double check if this works
-
-  try:
-    print("Creating table {}: ".format(name), end='')
-    cursor.execute(ddl)
-  except mysql.connector.Error as err:
-    if err.errno == errorcode.ER_TABLE_EXISTS_ERROR:
-      print("already exists.")
-    else:
-      print(err.msg)
-  else:
-    print("OK")
-  
-  cursor.close()
-  cnx.close()
+def generateTable(year):
+        TABLE_NAME = "competition" + str(year)
+        commandsToRun = "CREATE TABLE " + TABLE_NAME
+        commandsToRun += " ("
+        commandsToRun += "  'id' INT unsigned NOT NULL AUTO_INCREMENT,"    # Used only for primary key
+        commandsToRun += "  'teamName' varchar(150),"                      # Holds the name of team (can be null if name not given)
+        commandsToRun += "  'teamNumber' INT unsigned NOT NULL,"           # Holds the assigned team number 
+        commandsToRun += "  'school' varchar(150) NOT NULL,"               # Holds the name of the teams school
+        commandsToRun += "  'numLegs' INT unsigned NOT NULL,"              # Holds either 2 or 4 depending in number of legs
+        commandsToRun += "  'automated' enum('M', 'A', 'AFB') NOT NULL,"   # Reffers to Manual, Automated, or Automated with Feedback
+        commandsToRun += "  'day' enum('Sat', 'Sun') NOT NULL,"            # Reffers to whether the team is going on Saturday or Sunday
+        commandsToRun += "  'writtenScore' INT unsigned,"                  # Holds score earned from written evaluation (can be null)
+        commandsToRun += "  'trackScore' INT unsigned,"                    # Holds score earned from track runs (can be null)
+        commandsToRun += "  'oralScore' INT unsigned,"                     # Holds score earned from oral presentation (can be null)
+        commandsToRun += "  'fabricationScore' INT unsigned,"              # Holds score earned from fabrication (can be null)
+        commandsToRun += "  'runTime1' TIME,"                              # Holds time spent on first run (can be null)
+        commandsToRun += "  'runTime2' TIME,"                              # Holds time spent on second run (can be null)
+        commandsToRun += "  'runTime3' TIME,"                              # Holds time spent on third run (can be null)
+        commandsToRun += "  PRIMARY KEY ('id')"                            # Sets id as the primary key
+        commandsToRun += ") ENGINE=InnoDB"
+        try:
+                print("Creating table {}: ".format(TABLE_NAME), end='')
+                cursor.execute(commandsToRun)
+        except mysql.connector.Error as err:
+                if err.errno == errorcode.ER_TABLE_EXISTS_ERROR:
+                        print("already exists.")
+                else:
+                        print(err.msg)
+        else:
+                print("OK")
 
 def create_database(cursor):
-    try:
-        cursor.execute(
-            "CREATE DATABASE {} DEFAULT CHARACTER SET 'utf8'".format(DB_NAME))
-    except mysql.connector.Error as err:
-        print("Failed creating database: {}".format(err))
-        exit(1)
+        try:
+                cursor.execute("CREATE DATABASE {} DEFAULT CHARACTER SET 'utf8'".format(DB_NAME))
+        except mysql.connector.Error as err:
+                print("Failed creating database: {}".format(err))
+                exit(1)
 
+def getTeam(num):
+        cursor.execute("SELECT * FROM " + TABLE_NAME + "WHERE teamNumber = " + str(num) + ";")
+        for (id, teamName, teamNumber, school, numLegs, automated, day, writtenScore, trackScore, oralScore, fabricationScore, runTime1, runTime2, runTime3, rankDay, rankOver) in cursor:
+                print("id:{}, team {}, {} from {}".format(id, teamNumber, teamName, school))
+                print("{} with {} legs on {}".format(automated, numLegs, day))
+                print("Written Score: {}, Track Score: {}, Oral Score: {}, Fabrication Score: {}".format(writtenScore, trackScore, oralScore, fabricationScore))
+                print("Run Time 1: {}, Run Time 2: {}, Run Time 3: {}".format(runTime1, runTime2, runTime3))
+
+def inputScores(teamNum, written, track, oral, fabrication):
+        command = "UPDATE " + TABLE_NAME + " SET writtenScore = " + str(written) + "WHERE teamNum = " + str(teamNum) + ";"
+        command += "UPDATE " + TABLE_NAME + " SET trackScore = " + str(track) + "WHERE teamNum = " + str(teamNum) + ";"
+        command += "UPDATE " + TABLE_NAME + " SET oralScore = " + str(oral) + "WHERE teamNum = " + str(teamNum) + ";"
+        command += "UPDATE " + TABLE_NAME + " SET fabricationScore = " + str(fabrication) + "WHERE teamNum = " + str(teamNum) + ";"
+        cursor.execute(command)
+        cursor.commit()        
+
+def inputTime(teamNum, run1, run2, run3):
+        command = "UPDATE " + TABLE_NAME + " SET runTIme1 = " + str(run1(1)) + str(run1(0)) + "WHERE teamNum = " + str(teamNum) + ";"
+        command += "UPDATE " + TABLE_NAME + " SET runTIme2 = " + str(run2(1)) + str(run2(0)) + "WHERE teamNum = " + str(teamNum) + ";"
+        command += "UPDATE " + TABLE_NAME + " SET runTIme3 = " + str(run3(1)) + str(run3(0)) + "WHERE teamNum = " + str(teamNum) + ";"        
+        cursor.execute(command)
+        cursor.commit()        
+
+def addTeam(teamNum, school, numLegs, automated, day): #For automated, 0 = 'M', 1 = 'A', and 2 = 'AFB', for day, 0 = 'Sun', 1 = 'Sat'
+        command = "INSERT INTO " + TABLE_NAME + " ( teamNumber, school, numLegs, automated, day) VALUES "
+        command += "( " + str(teamNum) + ", '" + school + "', " + str(numLegs) + ", "
+        
+        if(automated == 0):
+                command += "M, "
+        elif(automated == 1):
+                command += "A, "
+        elif(automated == 2):
+                command += "AFB, "
+
+        if(day == 0):
+                command += "Sun );"
+        elif(day == 1):
+                command += "Sat );"
+        
+        cursor.execute(command)
+        cursor.commit()
+
+def setName(teamNum, teamName):
+        command = "UPDATE " + TABLE_NAME + " SET teamName = " + teamName + "WHERE teamNum = " + str(teamNum) + ";"
+        cursor.execute(command)
+        cursor.commit()
+
+yr = input("What year is this competition for? ")
 try:
     cnx.database = DB_NAME  
 except mysql.connector.Error as err:
@@ -61,3 +107,55 @@ except mysql.connector.Error as err:
     else:
         print(err)
         exit(1)
+generateTable(yr)
+
+choice = 0
+while choice != 5:
+        print ("1. Add a team")
+        print ("2. Name team")
+        print ("3. Input data")
+        print ("4. Display team")
+        print ("5. Quit")
+        choice = input("?: ")
+        if choice == 1:
+                num = input("Team Number: ")
+                school = raw_input("School: ")
+                numLeg = input("Number of Legs: ")
+                automated = input("Automated (0 = Manual, 1 = Automated, 2 = Automated w/ Feedback): ")
+                day = input("Day (0 = Sunday, 1 = Saturday):")
+                addTeam(num, school, numLeg. automated, day)
+        elif choice == 2:
+                num = input("Team Number: ")
+                name = raw_input("Team Name: ")
+                setName(num, name)
+        elif choice == 3:
+                num = input("Team Number: ")
+                written = input("Written Score: ")
+                track = input("Track Score: ")
+                oral = input("Oral Score: ")
+                fabrication = input("Fabrication Score: ")
+                inputScores(num, written, track, oral, fabrication)
+
+                print("run 1:")
+                min = input("min: ")
+                sec = input("seconds: ")
+                run1 = (min, sec)
+
+                print("run 2:")
+                min = input("min: ")
+                sec = input("seconds: ")
+                run2 = (min, sec)
+
+                print("run 3:")
+                min = input("min: ")
+                sec = input("seconds: ")
+                run3 = (min, sec)
+
+                inputTime(num, run1, run2, run3)
+        elif choice == 4:
+                num = input("Team Number: ")
+                getTeam(num)
+
+        
+cursor.close()
+cnx.close()
