@@ -16,22 +16,22 @@ def generateTable(year):
         TABLE_NAME = "competition" + str(year)
         commandsToRun = "CREATE TABLE " + TABLE_NAME
         commandsToRun += " ("
-        commandsToRun += "  'id' INT unsigned NOT NULL AUTO_INCREMENT,"    # Used only for primary key
-        commandsToRun += "  'teamName' varchar(150),"                      # Holds the name of team (can be null if name not given)
-        commandsToRun += "  'teamNumber' INT unsigned NOT NULL,"           # Holds the assigned team number 
-        commandsToRun += "  'school' varchar(150) NOT NULL,"               # Holds the name of the teams school
-        commandsToRun += "  'numLegs' INT unsigned NOT NULL,"              # Holds either 2 or 4 depending in number of legs
-        commandsToRun += "  'automated' enum('M', 'A', 'AFB') NOT NULL,"   # Reffers to Manual, Automated, or Automated with Feedback
-        commandsToRun += "  'day' enum('Sat', 'Sun') NOT NULL,"            # Reffers to whether the team is going on Saturday or Sunday
-        commandsToRun += "  'writtenScore' INT unsigned,"                  # Holds score earned from written evaluation (can be null)
-        commandsToRun += "  'trackScore' INT unsigned,"                    # Holds score earned from track runs (can be null)
-        commandsToRun += "  'oralScore' INT unsigned,"                     # Holds score earned from oral presentation (can be null)
-        commandsToRun += "  'fabricationScore' INT unsigned,"              # Holds score earned from fabrication (can be null)
-        commandsToRun += "  'runTime1' TIME,"                              # Holds time spent on first run (can be null)
-        commandsToRun += "  'runTime2' TIME,"                              # Holds time spent on second run (can be null)
-        commandsToRun += "  'runTime3' TIME,"                              # Holds time spent on third run (can be null)
-        commandsToRun += "  PRIMARY KEY ('id')"                            # Sets id as the primary key
-        commandsToRun += ") ENGINE=InnoDB"
+        commandsToRun += "  id INT unsigned NOT NULL AUTO_INCREMENT,"    # Used only for primary key
+        commandsToRun += "  teamName varchar(150),"                      # Holds the name of team (can be null if name not given)
+        commandsToRun += "  teamNumber INT unsigned NOT NULL,"           # Holds the assigned team number 
+        commandsToRun += "  school varchar(150) NOT NULL,"               # Holds the name of the teams school
+        commandsToRun += "  numLegs INT unsigned NOT NULL,"              # Holds either 2 or 4 depending in number of legs
+        commandsToRun += "  automated enum('M', 'A', 'AFB') NOT NULL,"   # Reffers to Manual, Automated, or Automated with Feedback
+        commandsToRun += "  day enum('Sat', 'Sun') NOT NULL,"            # Reffers to whether the team is going on Saturday or Sunday
+        commandsToRun += "  writtenScore INT unsigned,"                  # Holds score earned from written evaluation (can be null)
+        commandsToRun += "  trackScore INT unsigned,"                    # Holds score earned from track runs (can be null)
+        commandsToRun += "  oralScore INT unsigned,"                     # Holds score earned from oral presentation (can be null)
+        commandsToRun += "  fabricationScore INT unsigned,"              # Holds score earned from fabrication (can be null)
+        commandsToRun += "  runTime1 TIME,"                              # Holds time spent on first run (can be null)
+        commandsToRun += "  runTime2 TIME,"                              # Holds time spent on second run (can be null)
+        commandsToRun += "  runTime3 TIME,"                              # Holds time spent on third run (can be null)
+        commandsToRun += "  PRIMARY KEY (id)"                            # Sets id as the primary key
+        commandsToRun += ");"
         try:
                 print("Creating table {}: ".format(TABLE_NAME), end='')
                 cursor.execute(commandsToRun)
@@ -59,17 +59,26 @@ def getTeam(num):
                 print("Run Time 1: {}, Run Time 2: {}, Run Time 3: {}".format(runTime1, runTime2, runTime3))
 
 def inputScores(teamNum, written, track, oral, fabrication):
-        command = "UPDATE " + TABLE_NAME + " SET writtenScore = " + str(written) + "WHERE teamNum = " + str(teamNum) + ";"
-        command += "UPDATE " + TABLE_NAME + " SET trackScore = " + str(track) + "WHERE teamNum = " + str(teamNum) + ";"
-        command += "UPDATE " + TABLE_NAME + " SET oralScore = " + str(oral) + "WHERE teamNum = " + str(teamNum) + ";"
-        command += "UPDATE " + TABLE_NAME + " SET fabricationScore = " + str(fabrication) + "WHERE teamNum = " + str(teamNum) + ";"
+        command = "UPDATE " + TABLE_NAME + " SET writtenScore = " + str(written) + "WHERE teamNumber = " + str(teamNum) + ";"
+        command += "UPDATE " + TABLE_NAME + " SET trackScore = " + str(track) + "WHERE teamNumber = " + str(teamNum) + ";"
+        command += "UPDATE " + TABLE_NAME + " SET oralScore = " + str(oral) + "WHERE teamNumber = " + str(teamNum) + ";"
+        command += "UPDATE " + TABLE_NAME + " SET fabricationScore = " + str(fabrication) + "WHERE teamNumber = " + str(teamNum) + ";"
         cursor.execute(command)
         cursor.commit()        
-
+ 
 def inputTime(teamNum, run1, run2, run3):
-        command = "UPDATE " + TABLE_NAME + " SET runTIme1 = " + str(run1(1)) + str(run1(0)) + "WHERE teamNum = " + str(teamNum) + ";"
-        command += "UPDATE " + TABLE_NAME + " SET runTIme2 = " + str(run2(1)) + str(run2(0)) + "WHERE teamNum = " + str(teamNum) + ";"
-        command += "UPDATE " + TABLE_NAME + " SET runTIme3 = " + str(run3(1)) + str(run3(0)) + "WHERE teamNum = " + str(teamNum) + ";"        
+        command = "UPDATE " + TABLE_NAME + " SET runTIme1 = " + str(run1(0)) 
+        if run1(1) < 10:
+                command += "0"
+        command += str(run1(1)) + "WHERE teamNumber = " + str(teamNum) + ";"
+        command += "UPDATE " + TABLE_NAME + " SET runTIme2 = " + str(run2(0)) 
+        if run2(1) < 10:
+                command += "0"        
+        command += str(run2(1)) + "WHERE teamNumber = " + str(teamNum) + ";"
+        command += "UPDATE " + TABLE_NAME + " SET runTIme3 = " + str(run3(0)) 
+        if run3(1) < 10:
+                command += "0"
+        command += str(run3(1)) + "WHERE teamNumber = " + str(teamNum) + ";"        
         cursor.execute(command)
         cursor.commit()        
 
@@ -78,25 +87,25 @@ def addTeam(teamNum, school, numLegs, automated, day): #For automated, 0 = 'M', 
         command += "( " + str(teamNum) + ", '" + school + "', " + str(numLegs) + ", "
         
         if(automated == 0):
-                command += "M, "
+                command += "'M', "
         elif(automated == 1):
-                command += "A, "
+                command += "'A', "
         elif(automated == 2):
-                command += "AFB, "
+                command += "'AFB', "
 
         if(day == 0):
-                command += "Sun );"
+                command += "'Sun' );"
         elif(day == 1):
-                command += "Sat );"
+                command += "'Sat' );"
         
         cursor.execute(command)
         cursor.commit()
 
 def setName(teamNum, teamName):
-        command = "UPDATE " + TABLE_NAME + " SET teamName = " + teamName + "WHERE teamNum = " + str(teamNum) + ";"
+        command = "UPDATE " + TABLE_NAME + " SET teamName = '" + teamName + "' WHERE teamNumber = " + str(teamNum) + ";"
         cursor.execute(command)
         cursor.commit()
-
+cursor.execute("USE " + DB_NAME + ";")
 yr = input("What year is this competition for? ")
 try:
     cnx.database = DB_NAME  
@@ -107,6 +116,7 @@ except mysql.connector.Error as err:
     else:
         print(err)
         exit(1)
+
 generateTable(yr)
 
 choice = 0
